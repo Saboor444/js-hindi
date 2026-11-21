@@ -27,5 +27,39 @@ let stringnumber=String(someNumber)
 console.log(stringnumber)
 console.log(typeof stringnumber);
 
+//***************************************  operations ******************* */
+
+let value=2
+let negvalue=-value
+console.log(negvalue);
+
+console.log(2**3);   //power
+
+let str1="hello"
+let str2=" saboor"
+let str3=str1+str2
+console.log(str3);
+
+console.log("1"+2);
+console.log(1+"2");
+console.log("1"+2+2);
+console.log(1+2+"2");
+console.log(3+4*5%7);
+
+console.log(true);
+console.log(+true);
+// console.log(true+);      //error   
+console.log(+"");
+
+let gamecounter=100
+gamecounter++;
+console.log(gamecounter);
+++gamecounter;
+console.log(gamecounter);
+
+
+
+
+
 
 
